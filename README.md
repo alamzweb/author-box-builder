@@ -1,12 +1,12 @@
 === Author Box Builder === \
-Contributors: Saad
-Plugin URI: https://sitecroftdev.vercel.app/plugins/author-box-builder
-Tags: author box, profile card, biography, author bio, social links, profile widget, post author, user profile, gutenberg block, shortcode
-Requires at least: 6.0
-Tested up to: 6.5
-Requires PHP: 8.0
-Stable tag: 1.0.0
-License: GPLv2 or later
+Contributors: Saad \
+Plugin URI: https://sitecroftdev.vercel.app/plugins/author-box-builder \
+Tags: author box, profile card, biography, author bio, social links, profile widget, post author, user profile, gutenberg block, shortcode \
+Requires at least: 6.0 \
+Tested up to: 6.5 \
+Requires PHP: 8.0 \
+Stable tag: 1.0.0 \
+License: GPLv2 or later \
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Create highly customizable, beautifully structured author profile boxes equipped with custom social network integrations, avatar styling, and native blocks.
