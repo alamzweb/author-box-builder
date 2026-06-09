@@ -1,0 +1,70 @@
+.abb-box-container {
+	display: flex;
+	border: 1px solid #e2e8f0;
+	margin: 24px 0;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	clear: both;
+}
+.abb-layout-horizontal {
+	flex-direction: row;
+	align-items: center;
+}
+.abb-layout-vertical {
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.abb-avatar-frame {
+	flex-shrink: 0;
+}
+.abb-layout-horizontal .abb-avatar-frame {
+	margin-right: 20px;
+}
+.abb-layout-vertical .abb-avatar-frame {
+	margin-bottom: 15px;
+}
+.abb-info-frame {
+	flex-grow: 1;
+}
+.abb-author-name {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 0 0 6px 0;
+	line-height: 1.2;
+}
+.abb-author-name a {
+	text-decoration: none;
+	box-shadow: none;
+}
+.abb-author-bio {
+	font-size: 0.95rem;
+	margin: 0 0 12px 0;
+	line-height: 1.5;
+}
+.abb-social-matrix {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+.abb-layout-vertical .abb-social-matrix {
+	justify-content: center;
+}
+.abb-social-icon-link {
+	font-size: 0.85rem;
+	text-decoration: none;
+	font-weight: 600;
+}
+@media (max-width: 600px) {
+	.abb-layout-horizontal {
+		flex-direction: column;
+		text-align: center;
+	}
+	.abb-layout-horizontal .abb-avatar-frame {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.abb-layout-horizontal .abb-social-matrix {
+		justify-content: center;
+	}
+}
